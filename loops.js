@@ -10,5 +10,10 @@ else {
 return array 
 }
 
-
+function whileLoop(n) {
 let countdown = n 
+while (countdown> n) {
+  console.log(--countdown)
+}
+return whileLoop
+}
